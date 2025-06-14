@@ -84,11 +84,15 @@ pulumi up
 
 ## Components
 
-- **EKS Cluster**: Managed Kubernetes cluster for running data science workloads
-- **S3 Bucket**: Secure storage for datasets and artifacts
-- **RDS PostgreSQL**: Database for data science applications
-- **ECR Repository**: Container registry for ML models and notebooks
-- **IAM Roles**: Security policies for accessing resources
+- **PostgreSQL**: Relational database for analytics and app data
+- **MinIO**: S3-compatible object storage for files and datasets
+- **Metabase**: Open-source BI and analytics dashboard
+- **Superset**: Modern data exploration and visualization platform
+- **Airflow**: Workflow scheduler and orchestrator
+- **Meltano**: Data integration and ELT platform
+- **dbt**: Data transformation tool
+- **DuckDB**: Analytical in-process database
+- **Spark**: Distributed data processing engine (single-node mode)
 
 ## Outputs
 
