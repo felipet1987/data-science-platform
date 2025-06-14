@@ -93,7 +93,12 @@ pulumi up
 ## Outputs
 
 After deployment, the following outputs will be available:
-- `cluster_endpoint`: EKS cluster endpoint
-- `s3_bucket_name`: Name of the S3 bucket
-- `rds_endpoint`: RDS database endpoint
-- `ecr_repository_url`: URL for the ECR repository
+- `postgres_url`: PostgreSQL connection string
+- `minio_url`: MinIO S3-compatible object storage URL
+- `metabase_url`: Metabase analytics dashboard
+- `superset_url`: Superset analytics dashboard
+- `airflow_url`: Airflow web UI
+- `meltano_url`: Meltano UI
+- `spark_master_url`: Spark Master UI
+
+See above for default ports, credentials, and how to access each service.
